@@ -1,0 +1,4 @@
+L'appli sera developper dans la branche dev
+lorsque le developpeur pense que son trvail est fait et est stable celui ci merge son travail dans la branche prod
+si la versions en prod est stable et qu'elle contient de nouvelles  fonctionnalitées utilisable celle ci sera merge dans la branche release
+Si  un problème surviens lors dans la branche prod ou release le problème sera réglé dans la branche HotFix qui sera merge dans la branche  prod et release(si besoin est)
