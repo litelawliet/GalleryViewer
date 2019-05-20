@@ -1,0 +1,62 @@
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Ecriture :
+
+class : PascalCase
+
+directory : snake_case
+
+##############################
+DEV
+##############################
+
+variables : camelCase
+constant :  ALL_UPPER
+method : PascalCase
+
+##############################
+TEST
+##############################
+
+variables : camelCase
+constant :  ALL_UPPER
+method : snake_case
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Nommage:
+
+Tout sera écrit en anglais
+
+
+###########################
+DEV
+###########################
+
+constant && variable : nommée de facons claire pas de raccourcis (ex String addresse et pas String addr)
+method : nom claire pour que l'on sache ce que fais la méthode (ex getId)
+
+###########################
+TEST
+###########################
+
+constant && variable : nommée de facons claire pas de raccourcis (ex String addresse et pas String addr)
+
+method :  dit exactement ce que fais la method avec les différents cas de test
+
+            ex :
+
+                @Test
+                public void get_an_id_with_no_entry(){
+                [...]
+                }
+
+                @Test
+                public void get_an_id_with_one_entry(){
+                [...]
+                }
+
+                @Test
+                public void get_an_id_with_several_entry(){
+                [...]
+                }
+
